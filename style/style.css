@@ -4,6 +4,7 @@
     background-position: center;
     width: 100%;
     height: 750px;
+    margin-bottom: 116px;
     
 }
 
@@ -68,5 +69,31 @@
 .action{
     display: flex;
     justify-content: space-between;
-    
+    max-width: 1350px;
+    margin: 0 auto;
+    align-items: center;
+
 }
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    height: 0;
+    margin-bottom: 60px;
+}
+
+.action-description{
+    font-size: 25px;
+    color: #8987A1;
+    height: 0;
+    margin-bottom: 80px;
+    text-overflow:ellipsis;
+}
+
+.action-picture{
+    height: 300px;
+    border-radius: 45px;
+}
+
+
