@@ -72,6 +72,7 @@
     max-width: 1350px;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 116px;
 
 }
 
@@ -95,5 +96,50 @@
     height: 300px;
     border-radius: 45px;
 }
+
+
+.users-feedback-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    line-height: 0;
+}
+
+.feedback-value{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    line-height: 0;
+
+}
+
+.feedback-text{
+    font-size: 20px;
+    color: #6b6363f6;
+    line-height: 0;
+}
+
+.feedback-container{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.users-feedback{
+    max-width: 1350px;
+    text-align: center;
+    background-color: #cecde7;
+    height: 290px;
+    margin: 0 auto;
+    padding: 50px 0px 15px;
+    
+
+    
+}
+
+
+
+
 
 
