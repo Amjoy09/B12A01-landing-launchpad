@@ -98,14 +98,14 @@
 }
 
 
-.users-feedback-title{
+.users-pro-title{
     font-size: 38px;
     font-weight: bold;
     color: #252432;
     line-height: 0;
 }
 
-.feedback-value{
+.pro-value{
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
@@ -113,30 +113,97 @@
 
 }
 
-.feedback-text{
+.pro-text{
     font-size: 20px;
     color: #6b6363f6;
     line-height: 0;
 }
 
-.feedback-container{
+.pro-container{
     display: flex;
     justify-content: space-around;
     
 
 }
 
-.users-feedback{
+.users-pro{
     max-width: 1350px;
     text-align: center;
     background-color: #cecde7;
     height: 290px;
     margin: 0 auto;
     padding: 50px 0px 15px;
+    margin-bottom: 137px;
     
 
+}
+
+.feedback-headline{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.feedback-title{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0;
+
+}
+
+.feedback-subtitle{
+    font-size: 18px;
+    
     
 }
+
+.reviewer{
+    display: flex;
+    align-items:end;
+    gap: 10px;
+}
+
+.reviewer-pic{
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius:30px;
+}
+
+.name{
+    font-size: 25px;
+    line-height: 0;
+}
+.date{
+    font-size: 18px;
+    line-height: 0;
+    color: #5a5a64;
+}
+
+.reviewer-name-date{
+    margin-top: 24px;
+    
+}
+
+
+.feedback-cell{
+    height: 245px;
+    width: 366px;
+    padding: 24px 24px;
+    background-color: rgb(230, 223, 223);
+}
+
+.feedback-cell-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-feedback{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
 
 
 
