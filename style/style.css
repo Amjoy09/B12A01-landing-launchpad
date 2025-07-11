@@ -1,3 +1,7 @@
+body{
+    background-color: #F5F8FF;
+}
+
 .banner{
     background-image: url('/Assets/Hero-bg.png');
     background-size: cover;
@@ -129,14 +133,16 @@
 .users-pro{
     max-width: 1350px;
     text-align: center;
-    background-color: #cecde7;
+    background-color: #D6DDED;
     height: 290px;
     margin: 0 auto;
     padding: 50px 0px 15px;
     margin-bottom: 137px;
+    border-radius: 24px;
     
 
 }
+
 
 .feedback-headline{
     font-size: 42px;
@@ -191,7 +197,8 @@
     height: 245px;
     width: 366px;
     padding: 24px 24px;
-    background-color: rgb(230, 223, 223);
+    background-color: #FFFFFF;
+    border-radius: 14px;
 }
 
 .feedback-cell-container{
@@ -202,7 +209,100 @@
 .users-feedback{
     max-width: 1350px;
     margin: 0 auto;
+    margin-bottom: 110px;
 }
+
+.touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.touch-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+}
+
+input[type=email], input[type=text]{
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+label{
+    font-size: 25px;
+}
+
+::placeholder{
+    font-size: 25px;
+}
+
+.touch-btn{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    height: 67px;
+    width: 530px;
+
+}
+
+.touch-btn:hover{
+    cursor: pointer;
+    background-color: #000000;
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 160px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 24px;
+    color: #8b8f94;
+
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    line-height: 0;
+}
+
+.footer-description{
+    font-size: 27px;
+    color: #8b8f94;
+}
+
+
 
 
 
