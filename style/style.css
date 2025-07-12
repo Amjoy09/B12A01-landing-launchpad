@@ -4,15 +4,17 @@ body{
     background-color: #F5F8FF;
 }
 
-main{
-        
-
-}
 
 .banner{
     background-image: url('../Assets/Hero-bg.png');
-    text-align: center;
+    text-align: center; 
+    padding-bottom: 130px;
+    margin-bottom: 115px;
     
+    
+}
+
+.banner-item{
     
 }
 
@@ -28,7 +30,11 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    line-height: 10px;
+
 }
 
 .logo{
