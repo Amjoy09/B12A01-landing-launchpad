@@ -1,15 +1,30 @@
 body{
-    background-color: #F5F8FF;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main{
+        background-color: #F5F8FF;
+
 }
 
 .banner{
     background-image: url('/Assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
-    width: 100%;
     height: 750px;
-    margin-bottom: 266px;
+    margin-bottom: 120px;
+    text-align: center;
+
     
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    font-family: raleway;
+    margin-top: 120px;
 }
 
 .nav{
@@ -23,6 +38,7 @@ body{
     font-size: 34px;
     font-weight: 900;
     color: #4E47FF;
+    font-family: inter;
 
 }
 
@@ -34,6 +50,7 @@ body{
     border: none;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-family: raleway;
 }
 .btn:hover{
     font-size: large;
@@ -41,40 +58,15 @@ body{
     cursor:pointer;
 }
 
-.banner-title{
-    font-size: 50px;
-    font-weight: bold;
-    color: #252432;
-    height: 100px;
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    
-   
-}
 .btn-anchor{
     text-decoration: none;
     color: #FFFFFF;
-
-}
-
-.banner-content{
-    display: block;
-}
-
-.banner-btn{
-    /* position: absolute; */
-    /* bottom: 50px; */
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding-top: 170px;
 }
 
 .action{
     display: flex;
     justify-content: space-between;
-    max-width: 1350px;
+    max-width: 1140px;
     margin: 0 auto;
     align-items: center;
     margin-bottom: 116px;
@@ -87,6 +79,7 @@ body{
     color: #252432;
     height: 0;
     margin-bottom: 60px;
+    font-family: raleway;
 }
 
 .action-description{
@@ -95,6 +88,7 @@ body{
     height: 0;
     margin-bottom: 80px;
     text-overflow:ellipsis;
+    font-family: raleway;
 }
 
 .action-picture{
@@ -108,6 +102,7 @@ body{
     font-weight: bold;
     color: #252432;
     line-height: 0;
+    font-family: raleway;
 }
 
 .pro-value{
@@ -115,6 +110,7 @@ body{
     font-weight: bold;
     color: #4E47FF;
     line-height: 0;
+    font-family: inter;
 
 }
 
@@ -122,6 +118,7 @@ body{
     font-size: 20px;
     color: #6b6363f6;
     line-height: 0;
+    font-family: inter;
 }
 
 .pro-container{
@@ -132,7 +129,7 @@ body{
 }
 
 .users-pro{
-    max-width: 1350px;
+    max-width: 1140px;
     text-align: center;
     background-color: #D6DDED;
     height: 290px;
@@ -150,17 +147,28 @@ body{
     font-weight: bold;
     color: #252432;
     text-align: center;
+    font-family: raleway;
+}
+
+.feedback-cell{
+    height: 230px;
+    width: 350px;
+    padding: 24px 23px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
 }
 
 .feedback-title{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     line-height: 0;
+    font-family: raleway;
 
 }
 
 .feedback-subtitle{
-    font-size: 18px;
+    font-size: 15px;
+    font-family: raleway;
     
     
 }
@@ -169,6 +177,7 @@ body{
     display: flex;
     align-items:end;
     gap: 10px;
+    font-family: raleway;
 }
 
 .reviewer-pic{
@@ -179,13 +188,15 @@ body{
 }
 
 .name{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 0;
+    font-family: raleway;
 }
 .date{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 0;
     color: #5a5a64;
+    font-family: raleway;
 }
 
 .reviewer-name-date{
@@ -193,22 +204,14 @@ body{
     
 }
 
-
-.feedback-cell{
-    height: 245px;
-    width: 366px;
-    padding: 24px 24px;
-    background-color: #FFFFFF;
-    border-radius: 14px;
-}
-
 .feedback-cell-container{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .users-feedback{
-    max-width: 1350px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-bottom: 110px;
 }
@@ -217,14 +220,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1350px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .touch-title{
-    font-size: 80px;
+    font-size: 65px;
     font-weight: bold;
     color: #000000;
+    font-family: raleway;
 }
 
 .form{
@@ -236,10 +240,11 @@ body{
 
 input[type=email], input[type=text]{
     width: 480px;
-    height: 60px;
+    height: 50px;
     border-radius: 10px;
     border: none;
     padding: 15px;
+
 }
 
 textarea{
@@ -247,15 +252,18 @@ textarea{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    font-size: 20px;
+    font-size: 13px;
+    font-family: inter;
 }
 
 label{
-    font-size: 25px;
+    font-size: 22px;
+    font-family: inter;
 }
 
 ::placeholder{
     font-size: 25px;
+    font-family: inter;
 }
 
 .touch-btn{
@@ -267,6 +275,7 @@ label{
     border-radius: 10px;
     height: 67px;
     width: 510px;
+    font-family: raleway;
 
 }
 
@@ -274,38 +283,43 @@ label{
     cursor: pointer;
     background-color: #000000;
 }
+
 footer{
     text-align: center;
     margin-top: 80px;
-    background-color: #FFFFFF;
+    background-color: #f5f0f0;
     padding-top: 50px;
-    padding-bottom: 160px;
+    padding-bottom: 125px;
 }
 
 .footer-nav{
     display: flex;
     justify-content: center;
     gap: 50px;
-    font-size: 24px;
+    font-size: 20px;
     color: #8b8f94;
+    font-family: raleway;
 
 }
 
 .footer-title{
     font-size: 100px;
-    font-weight: bolder;
+    font-weight:900;
     color: #4E47FF;
     line-height: 0;
+    font-family: inter;
 }
 
 .footer-description{
-    font-size: 27px;
-    color: #8b8f94;
+    font-size: 22px;
+    color:  #5a5a64;
+    font-family: raleway;
+    margin-bottom: 40px;
 }
 
 .focus{
     text-align: center;
-    max-width: 1350px;
+    max-width: 1140px;
     margin: 0 auto;
     height: 620px;
     background-color: #FFFFFF;
@@ -321,11 +335,13 @@ footer{
     font-weight: bold;
     color: #000000;
     line-height: 0;
+    font-family: raleway;
 }
 
 .focus-text{
     font-size: 17px;
     color:#8b8f94;
+    font-family: raleway;
 }
 
 .focus-pic{
@@ -333,6 +349,19 @@ footer{
     border-radius: 48px;
     margin: 0 auto;
 }
+
+.footer-anchor{
+    text-decoration: none;
+    color: #5a5a64;
+}
+
+.footer-anchor:hover{
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+
+
 
 
 
