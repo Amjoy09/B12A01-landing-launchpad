@@ -10,13 +10,9 @@ main{
 }
 
 .banner{
-    background-image: url('/Assets/Hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    height: 750px;
-    margin-bottom: 120px;
+    background-image: url('../Assets/Hero-bg.png');
     text-align: center;
-
+    
     
 }
 
